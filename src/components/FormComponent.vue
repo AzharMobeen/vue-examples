@@ -1,5 +1,9 @@
 <template>
   <div>
+    <h4>Login Form example</h4>
+    <form @submit="login">
+
+    </form >
     <input type="text" v-model="loginForm.username" placeholder="Please enter username"/>
     <input type="password" v-model="loginForm.password" placeholder="Please enter password">
     <v-btn v-on:click="submitForm">Submit</v-btn>
