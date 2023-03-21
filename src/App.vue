@@ -2,17 +2,20 @@
 <!--  <img alt="Vue logo" src="./assets/logo.png">-->
   <Home/>
   <ParentComponent/>
+  <FormComponent/>
 </template>
 
 <script>
 import Home from './components/Home.vue'
 import ParentComponent from "@/components/ParentComponent";
+import FormComponent from "@/components/FormComponent";
 
 export default {
   name: 'App',
   components: {
     Home,
-    ParentComponent
+    ParentComponent,
+    FormComponent
   }
 }
 </script>
